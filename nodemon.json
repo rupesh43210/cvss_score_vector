@@ -1,0 +1,12 @@
+{
+  "watch": ["src/**/*", "vite.config.js"],
+  "ext": "js,jsx,ts,tsx,json,css",
+  "ignore": ["node_modules", "dist"],
+  "exec": "vite",
+  "events": {
+    "restart": "clear",
+    "crash": "kill-port 5173"
+  },
+  "delay": "500",
+  "verbose": true
+}
